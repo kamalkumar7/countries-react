@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+}
+.section{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.flag{
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 280px;
+    background-color: rgb(238, 238, 231);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 50px;
+
+}
+.card-content{
+    padding: 0 20px;
+}
+.link{
+    text-decoration: none;
+}
+.cards{
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    /* line-height: 0.5; */
+}
+.name{
+    /* line-height: 0.8; */
+}
+.input{
+    font-family: 'poppins';
+    padding: 10px;
+    width: 80vw;
+    display: flex;
+    margin: auto;    
+}
+
+.country-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    padding: 30px;
+}
+
+.img{
+    width: 450px;
+}
+span{
+    font-weight: 500;
+}
+.country-details{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.country-name{
+    font-size: 2rem;
+}
+h5{
+    
+    margin: 0;
+  /*   line-height: 2; */
+
+    font-size: 0.9rem;
+}
+.country-desc{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0 40px;
+}
+.theme{
+    cursor: pointer;
+}
+
+.dark-theme{
+    background-color: #041C32;
+    color: white;
+}
+.input-field{
+    margin-top: 30px;
+    width: 350px;
+    font-family: 'poppins';
+    border-radius: 5px;
+    padding: 10px;
+}
+.filter-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+.select-region{
+    padding:5px;
+    border-radius: 2px;
+}
